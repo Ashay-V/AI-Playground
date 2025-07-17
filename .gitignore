@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Vector Store
-./db/*
+db/*
 
 # Distribution / packaging
 .Python
