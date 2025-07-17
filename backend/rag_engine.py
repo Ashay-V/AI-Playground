@@ -1,7 +1,7 @@
 from langchain_core.runnables import RunnableMap
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from backend.ollama_utils import get_llm, get_streaming_llm
+from backend.ollama_utils import get_streaming_llm
 from backend.vector_store import load_vector_store
 
 def stream_rag_response(user_input: str):

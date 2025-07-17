@@ -2,7 +2,6 @@ from langchain_ollama import OllamaEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-import os
 
 PERSIST_PATH = "db/vector_store"
 
