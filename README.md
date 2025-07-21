@@ -8,9 +8,9 @@ Ollama is a free open source tool that lets you download LLM models locally onto
 1. Mac Download - https://ollama.com/download/mac
 2. Windows Download - https://ollama.com/download/windows
 
-CLI Reference - https://ollama.com/download/windows
+CLI Reference - https://github.com/ollama/ollama?tab=readme-ov-file#cli-reference
 
-Use the CLI reference above to pull a model onto your local. For this particular project, I recommend llama3.2 and qwen2.5-coder.
+Use the CLI reference above to pull a model onto your local. For this particular project, I recommend **llama3.2 and qwen2.5-coder**.
 
 # Install Continue.Dev VS Code Extension
 
@@ -23,16 +23,23 @@ https://www.python.org/downloads/
 With python installed, navigate to the root directory of the project. Once there, create a virtual environment with the following command:
 
 python3 -m venv .venv
+
 Activate the virtual environment with the following command:
 
-# On MacOS/Linux (bash)
+> On MacOS/Linux (bash)
+```
 source .venv/bin/activate 
+```
 
-# On Windows (cmd)
+> On Windows (cmd)
+```
 .venv\Scripts\activate.bat
+```
 
-# On Windows (cmd)
+> On Windows (Powershell)
+```
 .venv\Scripts\Activate.ps1
+```
 
 Once activated, install all dependencies using pip:
 
@@ -48,7 +55,7 @@ You can use the "deactivate" command to exit the venv.
 
 2. Add, remove, and/or edit .txt files in the data/documents directory
 
-3. Delete any existing chroma.sqlite3 and other contents within the db/vector_store directory
+3. Create a db/vector_store directory if one doesn't already exist. Delete any existing chroma.sqlite3 and other contents within the db/vector_store directory
 
 4. From the project root, run
 
