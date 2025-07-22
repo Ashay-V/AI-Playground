@@ -49,6 +49,7 @@ source .venv/bin/activate
 .venv\Scripts\Activate.ps1
 ```
 
+**Note: For windows users, remove the uvloop dependency in the requirements.txt before installing them**
 Once activated, install all dependencies using pip:
 
 pip install -r requirements.txt
@@ -73,4 +74,4 @@ You can use the "deactivate" command to exit the venv.
 
 # Run the solution
 
-streamlit run /Users/ashayvakharia/Workspace/AI-Playground/app/main.py
+streamlit run app/main.py
