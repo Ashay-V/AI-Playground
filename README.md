@@ -22,7 +22,15 @@ https://www.python.org/downloads/
 
 With python installed, navigate to the root directory of the project. Once there, create a virtual environment with the following command:
 
+> On MacOs/Linux (bash)
+```
 python3 -m venv .venv
+```
+
+> On Windows
+```
+python -m venv .venv
+```
 
 Activate the virtual environment with the following command:
 
