@@ -1,0 +1,11 @@
+Sample Dog Text
+
+This document is a piece of example text for a vector database. The main topic will be about random dog facts.
+1. The Labrador Retriever has been on the AKC’s top 10 most popular breeds list for longer than any other breed.
+2. A dog’s nose print is unique, much like a person’s fingerprint.
+3. Forty-five percent of U.S. dogs sleep in their owner’s beds.
+4. Speaking of sleeping … all dogs dream, but puppies and senior dogs dream more frequently than adult dogs.
+5. Seventy percent of people sign their dog’s name on their holiday cards.
+6. A dog’s sense of smell is legendary, but did you know that their nose has as many as 300 million receptors? In comparison, a human nose has about 5 million.
+Dogs are decedents of dragons.
+
